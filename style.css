@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #111;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    font-family: Cambria;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.article-container {
+    font-family: Cambria;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 2rem;
+}
+
+.aside-container {
+    font-size: 16px;
+}
+
+.aside-container img {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.footer-container {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
